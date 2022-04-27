@@ -92,8 +92,15 @@ ul.bxslider {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: -5px;
+  left: 0px;
+
   background: url(../images/Vector\ 2.png) no-repeat 10px center ;
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 45px !important;
+height: 45px !important;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .bx-wrapper .bx-prev:hover,
@@ -101,9 +108,20 @@ ul.bxslider {
   background-position: 10px center;
 }
 .bx-wrapper .bx-next {
-  right: 10px;
+  right: 0px;
+
   background: url(../images/Vector\ 7.png) no-repeat 10px center ;
-}
+  background-color: rgba(255, 255, 255, 0.664);
+width: 45px !important;
+height: 45px !important;
+
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+
+
 .bx-wrapper .bx-next:hover,
 .bx-wrapper .bx-next:focus {
   background-position: 10px center;
