@@ -47,7 +47,7 @@ $(function(){
 
 
 
-// 스크롤이 2100보다 커지면 .move 실행되게 함
+// 스크롤이 2100보다 커지면 .move 실행되게 함.
       $(window).scroll(function(){
         let wscroll = $(this).scrollTop();
         

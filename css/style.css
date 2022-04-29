@@ -16,7 +16,7 @@
 a{display: block;text-decoration: none;}
 img{display: block;}
 .hidden{display: none;}
-
+/*header배경 */
 #top-bg{
     width: 100%;
     height: 100px;
@@ -48,7 +48,7 @@ header nav > ul#gnb > li:hover >ul.sub{background-color: rgba(255, 255, 255, 0.8
 header nav ul.sub a {color: rgb(39, 39, 39); font-family:'CRPDMR'; transform: all 0.3s; font-weight: bold;}
 header nav ul.sub a:hover{color: #a70000; background: #fff; font-weight: bold;}
 header nav ul.sub{display: none;}
-
+/* 주소검생상자 */
 #search{
     width:200px;height:30px;float: left;
     border: 1px solid #fff;
@@ -78,10 +78,7 @@ header nav ul.sub{display: none;}
     padding-left: 10px;
 }
 .icon ul li a img{width: 24px; height: 24px; margin:4px;}
-.icon ul li a img{float: left;}#slide{clear: both; 
-  width: 100%;
-  height: 465px;}
-
+.icon ul li a img{float: left;}
 /* -------------------------------------------------- */
 .wrapper{margin:3em 0;}
   /* 1차메뉴 hover 효과 */
@@ -227,7 +224,7 @@ transition: all 0.4s;}
 .store p{width: 150px; height: 30px; position: absolute; bottom: 65%; left: 30%; }
 .store p img{float: left;}
 
-
+/* 푸터영역 */
 #bottom-bg{clear: both; width: 100%; height: 150px; background-color: #001128;}
 footer{width: 1200px;height: 150px; margin: auto;}
 footer h3{width: 200px; height: 150px; float: left;padding-top: 20px;}
@@ -236,8 +233,5 @@ footer ul li{float: left; font-size: 13px;}
 footer ul li a::after{content: " ㅣ ";}
 footer ul li:last-child a::after{content: "";}
 footer ul li a{color: #fff;font-family: KoreanYNSJG3R; text-align: center;}
-footer address{float: left; width: 1000px; height: 75px;
-  font-size: 11px; font-style: normal; text-align: center; line-height: 1.4;
-color: #fff; 
-font-family: KoreanYNSJG3R;}
+footer address{float: left; width: 1000px; height: 75px;font-size: 11px; font-style: normal; text-align: center; line-height: 1.4;color: #fff; font-family: KoreanYNSJG3R;}
 button:hover{cursor: pointer;}
